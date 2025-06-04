@@ -1,0 +1,354 @@
+﻿@page "/our-stories"
+@rendermode InteractiveServer
+
+<div class="stories-container">
+    <div class="stories-header">
+        <h1>Our Story</h1>
+        <p>A Journey of Flavor and Tradition</p>
+    </div>
+
+    <div class="stories-content">
+        <div class="story-section">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/e8/c5/1f/photo6jpg.jpg" alt="Masladar Bites Origin" class="story-image" />
+            <div class="story-text">
+                <h2>The Beginning</h2>
+                <p>
+                    Founded in 2015 in the heart of Islamabad's F6 Markaz, Masladar Bites was born from a passion for authentic Pakistani cuisine blended with innovative culinary techniques. Our founders, a family of seasoned chefs, aimed to bring the rich flavors of the region to every table, creating a dining experience that celebrates tradition and taste.
+                </p>
+            </div>
+        </div>
+
+        <div class="story-section reverse">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/a8/44/64/photo0jpg.jpg" alt="Masladar Bites Kitchen" class="story-image" />
+            <div class="story-text">
+                <h2>Our Craft</h2>
+                <p>
+                    At Masladar Bites, every dish is crafted with love and precision. Our kitchen is a fusion of heritage and modernity, where traditional recipes meet contemporary flair. From handpicked spices to locally sourced ingredients, we ensure each bite tells a story of quality and care.
+                </p>
+            </div>
+        </div>
+
+        <div class="story-section">
+            <img src="https://www.bestrestaurants.com.au/media/xerdowre/3.jpg?v=1d7faaa04288e30" alt="Masladar Bites Community" class="story-image" />
+            <div class="story-text">
+                <h2>Our Community</h2>
+                <p>
+                    We are proud to be part of Islamabad's vibrant food scene. Masladar Bites is more than a restaurant—it's a gathering place where families, friends, and food lovers come together. Since our inception, we've supported local farmers and artisans, contributing to the community's growth and sustainability.
+                </p>
+            </div>
+        </div>
+
+        <div class="mission-statement">
+            <h2>Our Mission</h2>
+            <p>
+                To serve delicious, authentic meals that reflect the soul of Pakistani cuisine while embracing innovation. We strive to create memorable dining experiences, foster community connections, and uphold the highest standards of quality and service—today and for generations to come.
+            </p>
+        </div>
+
+        
+        <div class="media-mentions">
+            <h2>Media Mentions</h2>
+            <p>We are honored to be featured in local and national media for our culinary excellence.</p>
+            <div class="media-list">
+                @if (mediaItems.Any())
+                {
+                    @foreach (var mediaItem in mediaItems)
+                    {
+                        <div class="media-item">
+                            <h3>@mediaItem.Title</h3>
+                            <p>@mediaItem.Description</p>
+                            <a href="@mediaItem.Link" target="_blank" class="media-link">Read More</a>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p>No media mentions available at the moment.</p>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="stories-footer">
+        <p>Established 2015 | F6 Markaz, Islamabad, Pakistan | Phone: (051) 123-4567</p>
+        <div class="social-links-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="https://facebook.com/masladarbites" target="_blank" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com/masladarbites" target="_blank" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/masladarbites" target="_blank" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+        <a href="/home" class="back-to-menu-btn">Back to Menu</a>
+    </div>
+</div>
+
+@code {
+    private List<MediaItem> mediaItems = new List<MediaItem>
+    {
+        new MediaItem
+        {
+            Title = "Best Pakistani Cuisine in Islamabad - Dawn News",
+            Description = "Masladar Bites was featured in Dawn News as one of the top restaurants serving authentic Pakistani cuisine in Islamabad.",
+            Link = "https://dawn.com/masladar-bites-feature"
+        },
+        new MediaItem
+        {
+            Title = "A Culinary Gem in F6 Markaz - The Express Tribune",
+            Description = "The Express Tribune highlighted our innovative approach to traditional recipes in their latest food column.",
+            Link = "https://tribune.com.pk/masladar-bites"
+        }
+    };
+
+    private class MediaItem
+    {
+        public string Title { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public string Link { get; set; } = string.Empty;
+    }
+}
+
+<style>
+    .stories-container {
+        background: linear-gradient(135deg, #1a2a44 0%, #2e3b55 100%);
+        color: #fff;
+        min-height: 100vh;
+        padding: 2rem;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .stories-header {
+        text-align: center;
+        margin-bottom: 3rem;
+        padding-top: 2rem;
+    }
+
+        .stories-header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: #f4c430; 
+            margin-bottom: 0.5rem;
+        }
+
+        .stories-header p {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: #ddd;
+        }
+
+    .stories-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .story-section {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
+    .story-image {
+        width: 50%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        object-fit: cover;
+    }
+
+    .story-text {
+        width: 50%;
+        padding: 1rem;
+    }
+
+        .story-text h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: #f4c430;
+            margin-bottom: 1rem;
+        }
+
+        .story-text p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #fff;
+        }
+
+    .mission-statement {
+        text-align: center;
+        padding: 2rem;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        margin-top: 2rem;
+    }
+
+        .mission-statement h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: #f4c430;
+            margin-bottom: 1rem;
+        }
+
+        .mission-statement p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #fff;
+        }
+
+    .media-mentions {
+        text-align: center;
+        padding: 2rem;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        margin-top: 2rem;
+    }
+
+        .media-mentions h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: #f4c430;
+            margin-bottom: 1rem;
+        }
+
+        .media-mentions p {
+            font-size: 1.1rem;
+            color: #ddd;
+            margin-bottom: 1.5rem;
+        }
+
+    .media-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .media-item {
+        background: rgba(255, 255, 255, 0.05);
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+        .media-item h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: #f4c430;
+            margin-bottom: 0.5rem;
+        }
+
+        .media-item p {
+            font-size: 1rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+
+    .media-link {
+        color: #f4c430;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+    }
+
+        .media-link:hover {
+            color: #e0b028;
+        }
+
+    .stories-footer {
+        text-align: center;
+        margin-top: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid #f4c430;
+    }
+
+        .stories-footer p {
+            font-size: 0.9rem;
+            color: #ddd;
+            margin-bottom: 1rem;
+        }
+
+    .social-links-section {
+        margin: 1.5rem 0;
+    }
+
+        .social-links-section h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            color: #f4c430;
+            margin-bottom: 1rem;
+        }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .social-icon {
+        color: #f4c430;
+        font-size: 1.5rem;
+        transition: color 0.3s ease;
+    }
+
+        .social-icon:hover {
+            color: #e0b028;
+        }
+
+    .back-to-menu-btn {
+        display: inline-block;
+        background: #f4c430;
+        color: #1a2a44;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 5px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background 0.3s ease;
+    }
+
+        .back-to-menu-btn:hover {
+            background: #e0b028;
+        }
+
+    
+
+    .story-image, .story-text {
+        width: 100%;
+    }
+
+    .stories-header h1 {
+        font-size: 2rem;
+    }
+
+    .story-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .media-mentions h2 {
+        font-size: 1.5rem;
+    }
+
+    .media-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .social-links {
+        gap: 1rem;
+    }
+
+    .social-icon {
+        font-size: 1.2rem;
+    }
+
+    }
+</style>

@@ -1,0 +1,13 @@
+wwwroot\app.css
+wwwroot\bootstrap\bootstrap.min.css
+wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\favicon.png
+wwwroot\images\1.avif
+wwwroot\images\ambi2.jpeg
+wwwroot\images\logo.png
+wwwroot\images\orgin.jpeg
+wwwroot\images\screen1.png
+wwwroot\images\screen2.png
+wwwroot\images\success.webm
+wwwroot\index.html
+wwwroot\js\billPrinter.js

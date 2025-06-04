@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorApp23.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorApp23.x0ittdtqxl.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\images\\1.avif",
+      "PackagePath": "staticwebassets\\images\\1.avif"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\images\\ambi2.jpeg",
+      "PackagePath": "staticwebassets\\images\\ambi2.jpeg"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\images\\orgin.jpeg",
+      "PackagePath": "staticwebassets\\images\\orgin.jpeg"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\images\\screen1.png",
+      "PackagePath": "staticwebassets\\images\\screen1.png"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\images\\screen2.png",
+      "PackagePath": "staticwebassets\\images\\screen2.png"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\images\\success.webm",
+      "PackagePath": "staticwebassets\\images\\success.webm"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\visual proj\\visual proj\\BlazorApp23\\BlazorApp23\\BlazorApp23\\wwwroot\\js\\billPrinter.js",
+      "PackagePath": "staticwebassets\\js\\billPrinter.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorApp23.props",
+      "PackagePath": "build\\BlazorApp23.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorApp23.props",
+      "PackagePath": "buildMultiTargeting\\BlazorApp23.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorApp23.props",
+      "PackagePath": "buildTransitive\\BlazorApp23.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

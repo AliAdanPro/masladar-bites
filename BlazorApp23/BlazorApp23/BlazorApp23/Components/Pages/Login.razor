@@ -1,0 +1,197 @@
+﻿@page "/login"
+@using System.ComponentModel.DataAnnotations
+@inject UserService UserService
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
+
+<style>
+    .login-container {
+        max-width: 400px;
+        margin: 5rem auto;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        background: white;
+        animation: fadeIn 0.5s ease-out;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .login-header {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #1a2a44;
+    }
+
+    .login-logo {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 1rem;
+        animation: bounce 2s infinite;
+        border-radius: 50%;
+        background-color: #1a2a44; 
+        padding: 10px; 
+    }
+
+    .form-control {
+        border-radius: 8px;
+        padding: 12px;
+        border: 1px solid #dfe6e9;
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #f5c542;
+            box-shadow: 0 0 0 0.25rem rgba(245, 197, 66, 0.25);
+        }
+
+    .btn-login {
+        background: linear-gradient(135deg, #1a2a44, #2c3e50);
+        border: none;
+        padding: 12px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        transition: all 0.3s ease;
+        color: #f5c542;
+        font-family: 'Inter', sans-serif;
+    }
+
+        .btn-login:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(26, 42, 68, 0.4);
+        }
+
+    .alert-danger {
+        border-radius: 8px;
+        animation: shake 0.5s;
+        font-family: 'Inter', sans-serif;
+    }
+
+    
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    }
+
+  
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    }
+
+   
+
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-5px);
+    }
+
+    20%, 40%, 60%, 80% {
+        transform: translateX(5px);
+    }
+
+    }
+
+   
+    .login-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .login-header h3 {
+        font-size: 1.5rem;
+    }
+
+    }
+</style>
+
+<div class="login-container">
+    <div class="login-header">
+        <svg class="login-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#f5c542">
+            <circle cx="12" cy="8" r="4" />
+            <path d="M12 14c-4.42 0-8 2.24-8 5v1h16v-1c0-2.76-3.58-5-8-5z" />
+        </svg>
+        <h3 style="font-family: 'Playfair Display', serif;">Welcome Back</h3>
+        <p class="text-muted">Please enter your credentials</p>
+    </div>
+
+    @if (errorMessage != null)
+    {
+        <div class="alert alert-danger mb-4">@errorMessage</div>
+    }
+
+    <EditForm Model="loginModel" OnValidSubmit="HandleLogin" FormName="LoginForm">
+        <DataAnnotationsValidator />
+        <ValidationSummary class="text-danger mb-4" />
+
+        <div class="form-group mb-4">
+            <label for="username" class="form-label">Username</label>
+            <InputText id="username" @bind-Value="loginModel.Username" class="form-control" />
+            <ValidationMessage For="@(() => loginModel.Username)" class="text-danger small" />
+        </div>
+
+        <div class="form-group mb-4">
+            <label for="password" class="form-label">Password</label>
+            <InputText id="password" type="password" @bind-Value="loginModel.Password" class="form-control" />
+            <ValidationMessage For="@(() => loginModel.Password)" class="text-danger small" />
+        </div>
+
+        <div class="d-grid gap-2 mb-3">
+            <button type="submit" class="btn btn-login" disabled="@isLoading">
+                <span style="@(isLoading ? "display:none" : "")">Login</span>
+                <span class="spinner-border spinner-border-sm" style="@(isLoading ? "" : "display:none")" role="status"></span>
+            </button>
+        </div>
+
+       
+    </EditForm>
+</div>
+
+@code {
+    private LoginModel loginModel = new();
+    private string? errorMessage;
+    private bool isLoading = false;
+
+    private async Task HandleLogin()
+    {
+        isLoading = true;
+        errorMessage = null;
+
+        try
+        {
+            var isValid = await UserService.ValidateUserLoginAsync(
+                loginModel.Username,
+                loginModel.Password);
+
+            if (isValid)
+            {
+                await Task.Delay(500); 
+                Navigation.NavigateTo("/food-items", forceLoad: true);
+            }
+            else
+            {
+                errorMessage = "Invalid username or password";
+            }
+        }
+        catch
+        {
+            errorMessage = "Login failed. Please try again.";
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    public class LoginModel
+    {
+        [Required(ErrorMessage = "Username is required")]
+        public string Username { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "Password is required")]
+        public string Password { get; set; } = string.Empty;
+    }
+}

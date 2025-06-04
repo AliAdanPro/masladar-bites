@@ -1,0 +1,437 @@
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\bin\Debug\net8.0\appsettings.json
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.staticwebassets.runtime.json
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.staticwebassets.endpoints.json
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.exe
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.deps.json
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.runtimeconfig.json
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.dll
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.pdb
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.AssemblyInfoInputs.cache
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.AssemblyInfo.cs
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.csproj.CoreCompileInputs.cache
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\bundle\BlazorApp23.styles.css
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\projectbundle\BlazorApp23.bundle.scp.css
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.build.BlazorApp23.props
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp23.props
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorApp23.props
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.dll
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\refint\BlazorApp23.dll
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.pdb
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.genruntimeconfig.cache
+C:\Users\GHAYOUR MUMTAZ\source\repos\BlazorApp23\BlazorApp23\obj\Debug\net8.0\ref\BlazorApp23.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\appsettings.Development.json
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.staticwebassets.endpoints.json
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\appsettings.json
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.staticwebassets.runtime.json
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.exe
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.deps.json
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.runtimeconfig.json
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.pdb
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Azure.Core.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Azure.Identity.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.ClientModel.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Memory.Data.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\pl\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\tr\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+E:\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.csproj.AssemblyReference.cache
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.GeneratedMSBuildEditorConfig.editorconfig
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.AssemblyInfoInputs.cache
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.AssemblyInfo.cs
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.csproj.CoreCompileInputs.cache
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.MvcApplicationPartsAssemblyInfo.cache
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\bundle\BlazorApp23.styles.css
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\projectbundle\BlazorApp23.bundle.scp.css
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.build.json
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.development.json
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssets.props
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.build.BlazorApp23.props
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp23.props
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorApp23.props
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.pack.json
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorAp.E38DBB8A.Up2Date
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.dll
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\refint\BlazorApp23.dll
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.pdb
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.genruntimeconfig.cache
+E:\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\ref\BlazorApp23.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\appsettings.Development.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\appsettings.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.staticwebassets.endpoints.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.staticwebassets.runtime.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.exe
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.deps.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.runtimeconfig.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.pdb
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Azure.Core.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Azure.Identity.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.ClientModel.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Memory.Data.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\pl\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\tr\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.csproj.AssemblyReference.cache
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.GeneratedMSBuildEditorConfig.editorconfig
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.AssemblyInfoInputs.cache
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.AssemblyInfo.cs
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.csproj.CoreCompileInputs.cache
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.MvcApplicationPartsAssemblyInfo.cache
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\bundle\BlazorApp23.styles.css
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\projectbundle\BlazorApp23.bundle.scp.css
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.build.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.development.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssets.props
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.build.BlazorApp23.props
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp23.props
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorApp23.props
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.pack.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorAp.E38DBB8A.Up2Date
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\refint\BlazorApp23.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.pdb
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.genruntimeconfig.cache
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\obj\Debug\net8.0\ref\BlazorApp23.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Dapper.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\appsettings.json
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.staticwebassets.runtime.json
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.staticwebassets.endpoints.json
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.exe
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.deps.json
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.runtimeconfig.json
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.pdb
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Dapper.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.csproj.AssemblyReference.cache
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.AssemblyInfoInputs.cache
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.AssemblyInfo.cs
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.csproj.CoreCompileInputs.cache
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\bundle\BlazorApp23.styles.css
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\projectbundle\BlazorApp23.bundle.scp.css
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.build.BlazorApp23.props
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp23.props
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorApp23.props
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorAp.E38DBB8A.Up2Date
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\refint\BlazorApp23.dll
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.pdb
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.genruntimeconfig.cache
+C:\Users\azeem\Desktop\BlazorApp23\BlazorApp23\obj\Debug\net8.0\ref\BlazorApp23.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\appsettings.json
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.staticwebassets.runtime.json
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.staticwebassets.endpoints.json
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.exe
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.deps.json
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.runtimeconfig.json
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.pdb
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Dapper.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.csproj.AssemblyReference.cache
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.AssemblyInfoInputs.cache
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.AssemblyInfo.cs
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.csproj.CoreCompileInputs.cache
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\bundle\BlazorApp23.styles.css
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\projectbundle\BlazorApp23.bundle.scp.css
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.build.BlazorApp23.props
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp23.props
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorApp23.props
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorAp.E38DBB8A.Up2Date
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\refint\BlazorApp23.dll
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.pdb
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.genruntimeconfig.cache
+C:\Users\GHAYOUR MUMTAZ\Downloads\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\ref\BlazorApp23.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\appsettings.Development.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\appsettings.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.staticwebassets.endpoints.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.staticwebassets.runtime.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.exe
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.deps.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.runtimeconfig.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\BlazorApp23.pdb
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Azure.Core.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Azure.Identity.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Dapper.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.ClientModel.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Memory.Data.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\pl\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\tr\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.csproj.AssemblyReference.cache
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.GeneratedMSBuildEditorConfig.editorconfig
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.AssemblyInfoInputs.cache
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.AssemblyInfo.cs
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.csproj.CoreCompileInputs.cache
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.MvcApplicationPartsAssemblyInfo.cache
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\bundle\BlazorApp23.styles.css
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\scopedcss\projectbundle\BlazorApp23.bundle.scp.css
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.build.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.development.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssets.props
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp23.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.build.BlazorApp23.props
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp23.props
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorApp23.props
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.pack.json
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorAp.E38DBB8A.Up2Date
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\refint\BlazorApp23.dll
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.pdb
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\BlazorApp23.genruntimeconfig.cache
+E:\visual proj\visual proj\BlazorApp23\BlazorApp23\BlazorApp23\obj\Debug\net8.0\ref\BlazorApp23.dll

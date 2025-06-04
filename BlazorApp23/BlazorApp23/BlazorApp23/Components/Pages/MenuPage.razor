@@ -1,0 +1,685 @@
+﻿@page "/menu"
+@rendermode InteractiveServer
+@using BlazorApp23.Components.Models
+@using BlazorApp23.Components.Services
+@inject MenuService MenuService
+@inject CartService CartService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+<style>
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .card-hover {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: none;
+        border-radius: 12px;
+        background: #fff;
+    }
+
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+    .image-container {
+        overflow: hidden;
+        border-radius: 12px 12px 0 0;
+    }
+
+        .image-container img {
+            transition: transform 0.3s ease;
+            object-fit: cover;
+            width: 100%;
+            height: 180px;
+        }
+
+            .image-container img:hover {
+                transform: scale(1.05);
+            }
+
+    .btn-animated {
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        padding: 8px 16px;
+        font-weight: 500;
+    }
+
+        .btn-animated:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            background: linear-gradient(45deg, var(--primary), #005bb5);
+            color: white;
+        }
+
+    .cart-item-image {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+        border-radius: 6px;
+        transition: transform 0.3s ease;
+        flex-shrink: 0;
+    }
+
+        .cart-item-image:hover {
+            transform: scale(1.1);
+        }
+
+    .quantity-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .quantity-display {
+        min-width: 28px;
+        text-align: center;
+        font-weight: 600;
+        padding: 4px 8px;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        background: #f9fafb;
+        font-size: 0.9rem;
+    }
+
+    .btn-quantity {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        padding: 0;
+        border: 1px solid #d1d5db;
+        background: #fff;
+        transition: all 0.3s ease;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+        .btn-quantity:hover {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+            transform: scale(1.1);
+        }
+
+        .btn-quantity:active {
+            transform: scale(0.95);
+        }
+
+    .checkout-form {
+        background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+        border-radius: 12px;
+        padding: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .order-summary {
+        background: #fff;
+        border-radius: 12px;
+        padding: 12px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .category-header {
+        margin-bottom: 15px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid var(--primary);
+    }
+
+        .category-header h4 {
+            font-weight: 600;
+            color: var(--secondary);
+        }
+
+    .cart-table {
+        font-size: 0.9rem;
+    }
+
+        .cart-table th, .cart-table td {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+
+        .cart-table tbody tr {
+            transition: background 0.2s ease;
+        }
+
+            .cart-table tbody tr:hover {
+                background: #f1f5f9;
+            }
+
+    .cart-card {
+        max-width: 900px;
+        margin: 0 auto;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    :root {
+        --primary: #007bff;
+        --secondary: #2d3748;
+        --success: #28a745;
+        --danger: #dc3545;
+    }
+
+    h3, h4, h5 {
+        font-weight: 600;
+        color: var(--secondary);
+    }
+
+    .btn-primary {
+        background: var(--primary);
+        border-color: var(--primary);
+    }
+
+    .btn-success {
+        background: var(--success);
+        border-color: var(--success);
+    }
+
+    .btn-outline-danger {
+        border-color: var(--danger);
+        color: var(--danger);
+    }
+
+        .btn-outline-danger:hover {
+            background: var(--danger);
+            color: white;
+        }
+
+    .order-success-message {
+        background: linear-gradient(135deg, #f8ffe5 0%, #e0ffe0 100%);
+        border: 2px solid #28a74533;
+        border-radius: 18px;
+        box-shadow: 0 6px 32px 0 rgba(40, 167, 69, 0.10), 0 1.5px 8px 0 rgba(56,189,248,0.10);
+        padding: 2.5rem 1.5rem 2rem 1.5rem;
+        max-width: 420px;
+        margin: 2rem auto 2.5rem auto;
+        position: relative;
+        animation: popIn 0.7s cubic-bezier(.4,0,.2,1);
+    }
+
+    .order-success-video {
+        width: 110px;
+        height: 110px;
+        margin-bottom: 1.2rem;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 2px 16px #28a74533;
+        animation: pulseSuccess 1.5s infinite;
+        background: #fff;
+    }
+
+    .order-success-heading {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: #218838;
+        margin-bottom: 0.7rem;
+        letter-spacing: 1px;
+        animation: popText 0.8s;
+    }
+
+    .order-success-order-number {
+        font-size: 1.1rem;
+        color: #155724;
+        margin-bottom: 0.5rem;
+    }
+
+    .order-success-thankyou {
+        font-size: 1.05rem;
+        color: #155724;
+        margin-bottom: 1.2rem;
+    }
+
+    @@keyframes popIn {
+        0% {
+            opacity: 0;
+            transform: scale(0.7);
+        }
+
+        80% {
+            opacity: 1;
+            transform: scale(1.05);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    @@keyframes popText {
+        0% {
+            opacity: 0;
+            transform: scale(0.7);
+        }
+
+        80% {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    @@keyframes pulseSuccess {
+        0% {
+            box-shadow: 0 0 0 0 #28a74544;
+        }
+
+        70% {
+            box-shadow: 0 0 0 12px #28a74511;
+        }
+
+        100% {
+            box-shadow: 0 0 0 0 #28a74544;
+        }
+    }
+
+    /* Print-specific styles */
+    @@media print {
+        body * {
+            visibility: hidden;
+        }
+
+        .cart-card, .cart-card * {
+            visibility: visible;
+        }
+
+        .cart-card {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            max-width: 100%;
+            box-shadow: none;
+            border: none;
+        }
+
+        .btn, .d-print-none {
+            display: none !important;
+        }
+
+        .checkout-form {
+            display: none !important;
+        }
+
+        .order-summary {
+            page-break-after: always;
+        }
+    }
+</style>
+
+<div class="container py-5">
+    <h3 class="mb-4">RESTAURANT MENU</h3>
+
+    @if (error != null)
+    {
+        <div class="alert alert-danger mb-4">@error</div>
+    }
+
+    @if (orderSuccess)
+    {
+        <div class="order-success-message alert alert-success mb-4 text-center">
+            <video src="images/success.webm" autoplay muted playsinline class="order-success-video"></video>
+            <h4 class="order-success-heading"> Order Placed Successfully! </h4>
+            <p class="order-success-order-number">
+                Your order number is: <strong>@order?.OrderNumber</strong>
+            </p>
+            <p class="order-success-thankyou">
+                Thank you for your order. We'll deliver it soon!
+            </p>
+            <button class="btn btn-sm btn-outline-secondary btn-animated mt-2" @onclick="ContinueShopping">
+                Continue
+            </button>
+        </div>
+    }
+
+    @if (!orderSuccess)
+    {
+        <div class="d-flex justify-content-end mb-4">
+            <button class="btn btn-primary btn-animated position-relative" @onclick="ToggleCart">
+                <i class="bi bi-cart-fill me-2"></i> Cart
+                @if (CartService.GetCartItems().Count > 0)
+                {
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        @CartService.GetCartItems().Sum(item => item.Quantity)
+                    </span>
+                }
+            </button>
+        </div>
+
+        @if (showCart)
+        {
+            <div class="card mb-4 cart-card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Your Order</h5>
+                </div>
+                <div class="card-body">
+                    @if (CartService.GetCartItems().Count == 0)
+                    {
+                        <p>Your cart is empty</p>
+                    }
+                    else
+                    {
+                        <div class="table-responsive mb-3">
+                            <table class="table cart-table">
+                                <thead>
+                                    <tr>
+                                        <th>Item</th>
+                                        <th>Price</th>
+                                        <th>Qty</th>
+                                        <th>Total</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in CartService.GetCartItems())
+                                    {
+                                        <tr>
+                                            <td>
+                                                <div class="d-flex align-items-center">
+                                                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                                                    {
+                                                        <img src="@item.ImageUrl" class="cart-item-image me-2" alt="@item.Name" />
+                                                    }
+                                                    <span>@item.Name</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                @if (item.DiscountedPrice < item.Price)
+                                                {
+                                                    <div>
+                                                        <span class="text-muted text-decoration-line-through">@item.Price.ToString("C")</span>
+                                                        <span class="text-danger fw-bold ms-1">@item.DiscountedPrice.ToString("C")</span>
+                                                    </div>
+                                                }
+                                                else
+                                                {
+                                                    <span>@item.Price.ToString("C")</span>
+                                                }
+                                            </td>
+                                            <td class="align-middle">
+                                                <div class="quantity-wrapper">
+                                                    <button class="btn btn-sm btn-outline-secondary btn-quantity" @onclick="() => UpdateQuantity(item.MenuItemId, item.Quantity - 1)">
+                                                        -
+                                                    </button>
+                                                    <span class="quantity-display">@item.Quantity</span>
+                                                    <button class="btn btn-sm btn-outline-secondary btn-quantity" @onclick="() => UpdateQuantity(item.MenuItemId, item.Quantity + 1)">
+                                                        +
+                                                    </button>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                @(((item.DiscountedPrice < item.Price ? item.DiscountedPrice : item.Price) * item.Quantity).ToString("C"))
+                                            </td>
+                                            <td>
+                                                <button class="btn btn-sm btn-outline-danger btn-animated" @onclick="() => RemoveFromCart(item.MenuItemId)" title="Remove from cart">
+                                                    🗑️
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="order-summary mb-3">
+                                    <h5>Order Summary</h5>
+                                    <hr />
+                                    <div class="d-flex justify-content-between">
+                                        <span>Subtotal:</span>
+                                        <span>@CartService.GetTotalPrice().ToString("C")</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <span>Delivery Fee:</span>
+                                        <span>$0.00</span>
+                                    </div>
+                                    <hr />
+                                    <div class="d-flex justify-content-between fw-bold">
+                                        <span>Total:</span>
+                                        <span>@CartService.GetTotalPrice().ToString("C")</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                @if (!showCheckoutForm)
+                                {
+                                    <div class="d-flex gap-2">
+                                        <button class="btn btn-primary btn-animated" @onclick="PrintCart">
+                                            <i class="bi bi-printer me-2"></i> Print Order
+                                        </button>
+                                        <button class="btn btn-success btn-animated w-100 py-2" @onclick="ShowCheckoutForm">
+                                            <i class="bi bi-check-circle me-2"></i> Proceed to Checkout
+                                        </button>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        @if (showCheckoutForm)
+                        {
+                            <div class="checkout-form mt-3">
+                                <h5 class="mb-3">Delivery Information</h5>
+                                <div class="row">
+                                    <div class="col-md-6 mb-2">
+                                        <label class="form-label">Contact Number</label>
+                                        <input class="form-control" @bind="order.ContactNumber" placeholder="Your phone number" />
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <label class="form-label">City</label>
+                                        <input class="form-control" @bind="order.City" placeholder="Your city" />
+                                    </div>
+                                    <div class="col-12 mb-2">
+                                        <label class="form-label">Delivery Address</label>
+                                        <textarea class="form-control" @bind="order.DeliveryAddress"
+                                                  placeholder="Full delivery address" rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between mt-3">
+                                    <button class="btn btn-outline-secondary btn-animated" @onclick="HideCheckoutForm">
+                                        <i class="bi bi-arrow-left me-2"></i> Back to Cart
+                                    </button>
+                                    <button class="btn btn-success btn-animated" @onclick="PlaceOrder" disabled="@(!IsFormValid())">
+                                        <i class="bi bi-check-circle me-2"></i> Place Order
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        }
+
+        <div class="row">
+            @foreach (var category in menuItems.GroupBy(f => f.Category))
+            {
+                var categoryInfo = menuCategories.FirstOrDefault(c => c.Name == category.Key);
+
+                <div class="col-md-12 mb-4">
+                    <div class="category-header">
+                        <h4>@category.Key</h4>
+                        @if (categoryInfo != null && !string.IsNullOrEmpty(categoryInfo.Description))
+                        {
+                            <p class="text-muted">@categoryInfo.Description</p>
+                        }
+                    </div>
+                    <div class="row">
+                        @foreach (var item in category)
+                        {
+                            <div class="col-md-4 mb-4">
+                                <div class="card h-100 card-hover">
+                                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                                    {
+                                        <div class="image-container">
+                                            <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" />
+                                        </div>
+                                    }
+                                    <div class="card-body">
+                                        <h5 class="card-title">@item.Name</h5>
+                                        <div class="d-flex justify-content-between align-items-center price-highlight mb-3">
+                                            @if (item.DiscountedPrice < item.Price)
+                                            {
+                                                <div>
+                                                    <span class="text-muted text-decoration-line-through">@item.Price.ToString("C")</span>
+                                                    <span class="text-danger fw-bold ms-1">@item.DiscountedPrice.ToString("C")</span>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <span class="fw-bold">@item.Price.ToString("C")</span>
+                                            }
+                                            <span class="badge bg-primary">
+                                                @((item.DateAdded - DateTime.Now).TotalDays > -7 ? "New" : "")
+                                            </span>
+                                        </div>
+                                        <div class="small text-muted">
+                                            <i class="bi bi-calendar me-1"></i> Added: @item.DateAdded.ToString("MMMM dd, yyyy")
+                                        </div>
+                                    </div>
+                                    <div class="card-footer bg-transparent d-flex justify-content-end">
+                                        <button class="btn btn-sm btn-outline-success btn-animated" @onclick="() => AddToCart(item)">
+                                            <i class="bi bi-cart-plus me-1"></i> Add to Cart
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@code {
+    private List<MenuItem> menuItems = new();
+    private List<MenuCategory> menuCategories = new();
+    private bool showCart = false;
+    private bool showCheckoutForm = false;
+    private bool orderSuccess = false;
+    private string? error;
+    private Order order = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            menuItems = await MenuService.GetAllMenuItemsAsync();
+            menuCategories = await MenuService.GetAllMenuCategoriesAsync();
+            CartService.OnChange += StateHasChanged;
+        }
+        catch (Exception ex)
+        {
+            error = $"Error loading data: {ex.Message}";
+        }
+    }
+
+    private void ToggleCart()
+    {
+        showCart = !showCart;
+        if (showCart) showCheckoutForm = false;
+    }
+
+    private void ShowCheckoutForm()
+    {
+        showCheckoutForm = true;
+        order = new Order
+            {
+                Items = CartService.GetCartItems(),
+                TotalPrice = CartService.GetTotalPrice()
+            };
+    }
+
+    private void HideCheckoutForm()
+    {
+        showCheckoutForm = false;
+    }
+
+    private async Task PrintCart()
+    {
+        // Hide the print button before printing
+        showCheckoutForm = true;
+        StateHasChanged();
+
+        // Give Blazor a moment to render
+        await Task.Delay(50);
+        await JSRuntime.InvokeVoidAsync("window.print");
+
+        // Restore the original state after printing
+        showCheckoutForm = false;
+        StateHasChanged();
+    }
+
+    private bool IsFormValid()
+    {
+        return !string.IsNullOrWhiteSpace(order.ContactNumber) &&
+               !string.IsNullOrWhiteSpace(order.City) &&
+               !string.IsNullOrWhiteSpace(order.DeliveryAddress) &&
+               CartService.GetCartItems().Count > 0;
+    }
+
+    private async Task PlaceOrder()
+    {
+        try
+        {
+            await MenuService.PlaceOrderAsync(order);
+            CartService.ClearCart();
+            orderSuccess = true;
+            showCart = false;
+            showCheckoutForm = false;
+        }
+        catch (Exception ex)
+        {
+            error = $"Error placing order: {ex.Message}";
+        }
+    }
+
+    private void ContinueShopping()
+    {
+        orderSuccess = false;
+    }
+
+    private void AddToCart(MenuItem menuItem)
+    {
+        CartService.AddToCart(menuItem);
+        if (!showCart) showCart = true;
+    }
+
+    private void RemoveFromCart(int menuItemId)
+    {
+        CartService.RemoveFromCart(menuItemId);
+    }
+
+    private void UpdateQuantity(int menuItemId, int quantity)
+    {
+        if (quantity > 0)
+        {
+            CartService.UpdateQuantity(menuItemId, quantity);
+        }
+        else if (quantity == 0)
+        {
+            CartService.RemoveFromCart(menuItemId);
+        }
+    }
+
+    public void Dispose()
+    {
+        CartService.OnChange -= StateHasChanged;
+    }
+}
